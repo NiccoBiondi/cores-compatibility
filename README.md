@@ -3,14 +3,12 @@
 This repo is the official implementation of "CoReS: Compatible Representations via Stationarity" 
 *Niccolò Biondi, Federico Pernici, Matteo Bruni, and Alberto Del Bimbo*, IEEE Transaction of Patter Analysis and Machine Intelligence (TPAMI), https://ieeexplore.ieee.org/document/10077426.
 
-## Abstract 
+
+Open access version on [arxiv](https://arxiv.org/abs/2111.07632)
 
 <p align="center">
   <img src="imgs/method.png" width="90%">
 </p>
-
-
->Compatible features enable the direct comparison of old and new learned features allowing to use them interchangeably over time. In visual search systems, this eliminates the need to extract new features from the gallery-set when the representation model is upgraded with novel data. This has a big value in real applications as re-indexing the gallery-set can be computationally expensive when the gallery-set is large, or even infeasible due to privacy or other concerns of the application. In this paper, we propose CoReS, a new training procedure to learn representations that are compatible with those previously learned, grounding on the stationarity of the features as provided by fixed classifiers based on polytopes. With this solution, classes are maximally separated in the representation space and maintain their spatial configuration stationary as new classes are added, so that there is no need to learn any mappings between representations nor to impose pairwise training with the previously learned model. We demonstrate that our training procedure largely outperforms the current state of the art and is particularly effective in the case of multiple upgrades of the training-set, which is the typical case in real applications.
 
 ## Install and Train
 ```bash
