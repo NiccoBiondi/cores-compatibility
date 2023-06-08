@@ -1,0 +1,7 @@
+root_folder: ./
+epochs: 100
+stages:
+- 70
+batch_size: 128
+num_workers: 8
+nsteps: 10
